@@ -1,4 +1,165 @@
-.astrology__header {
+.astrology__body {
+  background-color: #1c1c1c;
+  color: white;
+}
+.astrology__body .astrology__header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.astrology__body .astrology__header .logo {
+  justify-self: right;
+}
+.astrology__body .astrology__header .menu {
+  margin-top: 13px;
+  justify-self: left;
+}
+.astrology__body .astrology__header .astrology__title {
+  font-size: 25px;
+}
+.astrology__body .astrology_zodiac {
+  margin-left: 22px;
+}
+.astrology__body .astrology_scorpio {
+  margin-left: 95px;
+  margin-top: 10px;
+}
+.astrology__body .astrology__data {
+  text-align: center;
+  padding: 2px;
+}
+.astrology__body .astrology__data .astrology_date {
+  color: #707070;
+}
+
+.plantInfo__body {
+  background-color: #1c1c1c;
+  color: white;
+}
+.plantInfo__body .plantInfo__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.plantInfo__body .plantInfo__header .logo {
+  justify-self: right;
+}
+.plantInfo__body .plantInfo__header .menu {
+  margin-top: 13px;
+  justify-self: left;
+}
+.plantInfo__body .plant__info_light_water_temp {
+  margin-top: 60px;
+}
+.plantInfo__body .sun__info {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+.plantInfo__body .sun__info .plant__info_sun {
+  margin-top: 14px;
+  margin-right: 20px;
+}
+.plantInfo__body .water__info {
+  display: flex;
+  align-items: flex-start;
+}
+.plantInfo__body .water__info .plant__info_water {
+  margin-top: 14px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.plantInfo__body .temp__info {
+  display: flex;
+  align-items: flex-start;
+}
+.plantInfo__body .temp__info .plant__info_temp {
+  margin-top: 14px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.plantInfo__body .plant_reminder {
+  margin-top: 130px;
+}
+.plantInfo__body .plant__checklist {
+  display: flex;
+  align-items: flex-start;
+}
+.plantInfo__body .plant_check {
+  margin-top: 12px;
+  margin-right: 12px;
+}
+.plantInfo__body .plant__cirkel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.plantInfo__body .plant__cirkel .plant_imghealth {
+  margin-right: 18px;
+}
+
+.signin__body {
+  background-image: url(../../../img/background.png);
+  color: white;
+}
+
+.overskrift_signin {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.signin__input {
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.signin__input .signin_email {
+  border-radius: 14px;
+  background-color: #3d7a5d;
+  border-color: white;
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+}
+.signin__input .signin_password {
+  border-radius: 14px;
+  background-color: #3d7a5d;
+  border-color: white;
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+}
+
+.signin_email::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.signin_password::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.signin_forgotpassword {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.signin {
+  border-radius: 14px;
+  background-color: #3d7a5d;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  height: 35px;
+  margin-left: 146px;
+}
+
+.applogo {
+  margin-top: 180px;
+  display: block;
+  margin: auto;
 }

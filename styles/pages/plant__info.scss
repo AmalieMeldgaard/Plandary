@@ -1,0 +1,68 @@
+.plantInfo__body {
+  background-color: #1c1c1c;
+  color: white;
+
+  .plantInfo__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    .logo {
+      justify-self: right;
+    }
+    .menu {
+      margin-top: 13px;
+      justify-self: left;
+    }
+  }
+  .plant__info_light_water_temp {
+    margin-top: 60px;
+  }
+  .sun__info {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+    .plant__info_sun {
+      margin-top: 14px;
+      margin-right: 20px;
+    }
+  }
+  .water__info {
+    display: flex;
+    align-items: flex-start;
+    .plant__info_water {
+      margin-top: 14px;
+      margin-right: 20px;
+      margin-left: 5px;
+    }
+  }
+  .temp__info {
+    display: flex;
+    align-items: flex-start;
+    .plant__info_temp {
+      margin-top: 14px;
+      margin-right: 20px;
+      margin-left: 5px;
+    }
+  }
+  .plant_reminder {
+    margin-top: 130px;
+  }
+  .plant__checklist {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .plant_check {
+    margin-top: 12px;
+    margin-right: 12px;
+  }
+  .plant__cirkel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .plant_imghealth {
+      margin-right: 18px;
+    }
+  }
+}

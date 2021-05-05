@@ -1,0 +1,16 @@
+.welcome__body {
+  background-color: #1c1c1c;
+  color: white;
+}
+.plantInfo__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  .logo {
+    justify-self: right;
+  }
+  .menu {
+    margin-top: 13px;
+    justify-self: left;
+  }
+}
