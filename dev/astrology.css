@@ -1,0 +1,33 @@
+.astrology__body {
+  background-color: #1c1c1c;
+  color: white;
+}
+.astrology__body .astrology__header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.astrology__body .astrology__header .logo {
+  justify-self: center;
+  margin-right: -27px;
+}
+.astrology__body .astrology__header .menu {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.astrology__body .astrology__header .astrology__title {
+  font-size: 25px;
+}
+.astrology__body .astrology_zodiac {
+  margin-left: 22px;
+}
+.astrology__body .astrology_scorpio {
+  margin-left: 95px;
+  margin-top: 10px;
+}
+.astrology__body .astrology__data {
+  text-align: center;
+  padding: 2px;
+}
+.astrology__body .astrology__data .astrology_date {
+  color: #707070;
+}

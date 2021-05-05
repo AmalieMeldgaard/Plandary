@@ -1,0 +1,68 @@
+.signin__body {
+  background-image: url(../../../img/background.png);
+  color: white;
+}
+
+.overskrift_signin {
+  color: white;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.signin__input {
+  margin-left: 50px;
+  margin-top: 120px;
+
+  .signin_email {
+    border-radius: 14px;
+    background-color: #3d7a5d;
+    border-color: white;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+  }
+
+  .signin_password {
+    border-radius: 14px;
+    background-color: #3d7a5d;
+    border-color: white;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+  }
+}
+
+.signin_email::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.signin_password::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.signin_forgotpassword {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+.signin {
+  border-radius: 14px;
+  background-color: #3d7a5d;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  height: 35px;
+  margin-left: 146px;
+}
+
+.applogo {
+  margin-top: 180px;
+  display: block;
+  margin: auto;
+}
