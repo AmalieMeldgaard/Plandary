@@ -9,7 +9,6 @@
   font-size: 40px;
   font-family: "Poppins", sans-serif;
 }
-
 .plandary__welcomeTitle {
   text-align: center;
   margin-top: 40px;
@@ -22,25 +21,27 @@
   font-family: "Poppins", sans-serif;
   justify-content: center;
   margin-top: 50px;
-}
-.welcome_startandsignin .welcome_start {
-  border-radius: 14px;
-  background-color: #3d7a5d;
-  font-size: 22px;
-  padding: 5px;
-  margin: 10px;
-  height: 75px;
-  width: 300px;
-}
-.welcome_startandsignin .welcome_signin {
-  border-radius: 14px;
-  background-color: #f1ece6;
-  font-size: 22px;
-  padding: 5px;
-  margin: 10px;
-  height: 75px;
-  width: 300px;
-  font-family: "Poppins", sans-serif;
+
+  .welcome_start {
+    border-radius: 14px;
+    background-color: #3d7a5d;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    height: 75px;
+    width: 300px;
+  }
+
+  .welcome_signin {
+    border-radius: 14px;
+    background-color: #f1ece6;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px;
+    height: 75px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 .welcome_start {
