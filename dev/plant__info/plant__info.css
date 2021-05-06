@@ -7,6 +7,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .plantInfo__body .plantInfo__header .logo {
   justify-self: right;
@@ -18,10 +20,13 @@
 .plantInfo__body .plant__info_light_water_temp {
   margin-top: 60px;
   margin-bottom: 75px;
+  font-family: "Khula", sans-serif;
+  margin-left: 8px;
 }
 .plantInfo__body .plant__api {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-left: 8px;
 }
 .plantInfo__body .plant__api .api__plantimg {
   width: 165px;
@@ -32,6 +37,7 @@
 .plantInfo__body .plant__api .sun__info {
   display: flex;
   align-items: flex-start;
+  font-family: "Khula", sans-serif;
 }
 .plantInfo__body .plant__api .sun__info .plant__info_sun {
   margin-top: 14px;
@@ -40,6 +46,7 @@
 .plantInfo__body .plant__api .water__info {
   display: flex;
   align-items: flex-start;
+  font-family: "Khula", sans-serif;
 }
 .plantInfo__body .plant__api .water__info .plant__info_water {
   margin-top: 14px;
@@ -49,6 +56,7 @@
 .plantInfo__body .plant__api .temp__info {
   display: flex;
   align-items: flex-start;
+  font-family: "Khula", sans-serif;
 }
 .plantInfo__body .plant__api .temp__info .plant__info_temp {
   margin-top: 14px;
@@ -65,14 +73,17 @@
   margin-top: 45px;
 }
 .plantInfo__body .plant_reminder {
-  margin-top: 100px;
+  margin-top: 55px;
   padding-top: 20px;
   margin-left: 15px;
   color: #1c1c1c;
+  font-family: "Poppins", sans-serif;
 }
 .plantInfo__body .plant_getareminder {
   color: #1c1c1c;
   margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 .plantInfo__body .plant__checklist {
   display: flex;
