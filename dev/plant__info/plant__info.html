@@ -7,6 +7,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&display=swap"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khula:wght@600&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="plant__info.css" />
     <title>Plant info</title>
@@ -46,10 +52,13 @@
           <h3>20 Degrees</h3>
         </section>
       </section>
-      <img class="api__plantimg" src="../../img/plantAPI.jpeg" alt="API" />
+      <img class="api__plantimg" src="" alt="" />
     </section>
-
-    <button class="api__btn">Scan</button>
+    <form class="api">
+      <input type="file" multiple />
+      <button type="button" class="plant__sendButton">Scan</button>
+    </form>
+    <!-- <button class="api__btn">Scan</button> -->
 
     <section class="footer__background">
       <h2 class="plant_reminder">Set a reminder</h2>

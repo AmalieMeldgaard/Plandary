@@ -1,6 +1,7 @@
 .plantInfo__body {
   background-color: #1c1c1c;
   color: white;
+  margin: 0px;
 
   .plantInfo__header {
     display: grid;
@@ -55,6 +56,10 @@
     }
   }
 
+  .api {
+    text-align: center;
+    padding-top: 60px;
+  }
   .api__btn {
     display: block;
     margin: auto;
@@ -62,11 +67,19 @@
   }
   .plant_reminder {
     margin-top: 100px;
+    padding-top: 20px;
+    margin-left: 15px;
+    color: #1c1c1c;
+  }
+  .plant_getareminder {
+    color: #1c1c1c;
+    margin-left: 15px;
   }
 
   .plant__checklist {
     display: flex;
     align-items: flex-start;
+    margin-left: 15px;
   }
 
   .plant_check {
@@ -76,7 +89,7 @@
   .plant__cirkel {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 2px;
 
     .plant_imghealth {
       margin-right: 18px;
@@ -84,5 +97,7 @@
   }
   .footer__background {
     background-color: #edeae5;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 }
