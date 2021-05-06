@@ -7,6 +7,8 @@
   color: #ffffff;
   text-align: center;
   margin-top: 130px;
+  font-family: "Khula", sans-serif;
+  font-size: 35px;
 }
 
 .signin__input {
@@ -21,6 +23,7 @@
   padding: 5px;
   margin: 10px;
   height: 30px;
+  font-family: "Poppins", sans-serif;
 }
 .signin__input .signin_password {
   border-radius: 14px;
@@ -30,6 +33,7 @@
   padding: 5px;
   margin: 10px;
   height: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .signin_email::placeholder {
@@ -50,6 +54,8 @@
 
 .signin {
   border-radius: 14px;
+  display: block;
+  margin: auto;
   background-color: #3d7a5d;
   font-size: 15px;
   padding: 5px;
@@ -57,10 +63,12 @@
   color: white;
   height: 35px;
   margin-left: 146px;
+  width: 87px;
+  font-family: "Poppins", sans-serif;
 }
 
 .applogo {
-  margin-top: 180px;
+  margin-top: 40px;
   display: block;
   margin: auto;
 }
