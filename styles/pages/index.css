@@ -15,6 +15,7 @@
 }
 .astrology__body .astrology__header .astrology__title {
   font-size: 25px;
+  font-family: "Khula", sans-serif;
 }
 .astrology__body .astrology_zodiac {
   margin-left: 22px;
@@ -22,10 +23,12 @@
 .astrology__body .astrology_scorpio {
   margin-left: 95px;
   margin-top: 10px;
+  font-family: "Poppins", sans-serif;
 }
 .astrology__body .astrology__data {
   text-align: center;
   padding: 2px;
+  font-family: "Poppins", sans-serif;
 }
 .astrology__body .astrology__data .astrology_date {
   color: #707070;
@@ -106,6 +109,7 @@
   color: #ffffff;
   text-align: center;
   margin-top: 130px;
+  font-family: "Khula", sans-serif;
 }
 
 .signin__input {
@@ -120,6 +124,7 @@
   padding: 5px;
   margin: 10px;
   height: 30px;
+  font-family: "Poppins", sans-serif;
 }
 .signin__input .signin_password {
   border-radius: 14px;
@@ -129,6 +134,7 @@
   padding: 5px;
   margin: 10px;
   height: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .signin_email::placeholder {
@@ -156,6 +162,7 @@
   color: white;
   height: 35px;
   margin-left: 146px;
+  font-family: "Poppins", sans-serif;
 }
 
 .applogo {
@@ -182,6 +189,7 @@
   width: 125px;
   margin-left: 330px;
   font-weight: 450;
+  font-family: "Khula", sans-serif;
 }
 
 .title__to {
@@ -191,6 +199,7 @@
   font-size: 55px;
   width: 125px;
   margin-left: 368px;
+  font-family: "Khula", sans-serif;
 }
 
 .title__plandary {
@@ -214,7 +223,7 @@
 
 .welcome_signin {
   border-radius: 14px;
-  background-color: #F1ECE6;
+  background-color: #f1ece6;
   font-size: 22px;
   padding: 5px;
   margin: 10px;
@@ -222,6 +231,7 @@
   width: 460px;
   position: fixed;
   margin-top: 150px;
+  font-family: "Poppins", sans-serif;
 }
 
 .welcome_startandsignin {
@@ -229,6 +239,7 @@
   margin-top: 295px;
   display: grid;
   position: fixed;
+  font-family: "Poppins", sans-serif;
 }
 
 .welcome_start {
@@ -242,6 +253,7 @@
   margin-top: 550px;
   position: fixed;
   margin-left: 332px;
+  font-family: "Poppins", sans-serif;
 }
 
 .applogo {

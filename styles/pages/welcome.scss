@@ -1,87 +1,91 @@
-.body{
-    background-color: white;
-    text-align: center;
+.body {
+  background-color: white;
+  text-align: center;
 }
 
-
 .welcome_body {
-    background-image: url(../../../img/background.png);
-    color: white;
-  }
+  background-image: url(../../../img/background.png);
+  color: white;
+}
 
-  .title__welcome{
-    color: #ffffff;
-    text-align: center;
-    margin-top: 130px;
-    font-size: 55px;
-    width: 125px;
-    margin-left: 330px;
-    font-weight: 450; 
-  }
+.title__welcome {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 130px;
+  font-size: 55px;
+  width: 125px;
+  margin-left: 330px;
+  font-weight: 450;
+  font-family: "Khula", sans-serif;
+}
 
-  .title__to{
-    color: #ffffff;
-    text-align: center;
-    margin-top: 35px;
-    font-size: 55px;
-    width: 125px;
-    margin-left: 368px;
-  }
+.title__to {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 55px;
+  width: 125px;
+  margin-left: 368px;
+  font-family: "Khula", sans-serif;
+}
 
-  .title__plandary{
-    color: #ffffff;
-    text-align: center;
-    margin-top: 35px;
-    font-size: 55px;
-    width: 125px;
-    margin-left: 330px;
-  }
+.title__plandary {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 55px;
+  width: 125px;
+  margin-left: 330px;
+}
 
-  .welcome_start{
-    border-radius: 14px;
-    background-color: #3d7a5d;
-    font-size: 22px;
-    padding: 5px;
-    margin: 10px;
-    height: 75px;
-    width: 460px;
-  }
+.welcome_start {
+  border-radius: 14px;
+  background-color: #3d7a5d;
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+  height: 75px;
+  width: 460px;
+}
 
-  .welcome_signin{
-    border-radius: 14px;
-    background-color: #F1ECE6;
-    font-size: 22px;
-    padding: 5px;
-    margin: 10px;
-    height: 75px;
-    width: 460px;
-    position: fixed;
-    margin-top: 150px;
-  }
+.welcome_signin {
+  border-radius: 14px;
+  background-color: #f1ece6;
+  font-size: 22px;
+  padding: 5px;
+  margin: 10px;
+  height: 75px;
+  width: 460px;
+  position: fixed;
+  margin-top: 150px;
+  font-family: "Poppins", sans-serif;
+}
 
-  .welcome_startandsignin{
-    margin-left: 188px;
-    margin-top: 295px;
-    display: grid;
-    position: fixed;
-  }
+.welcome_startandsignin {
+  margin-left: 188px;
+  margin-top: 295px;
+  display: grid;
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+}
 
-  .welcome_start{
-      color: white;
-  }
+.welcome_start {
+  color: white;
+}
 
-  .forgot_password{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 550px;
-    position: fixed;
-    margin-left: 332px;
-  }
+.forgot_password {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 550px;
+  position: fixed;
+  margin-left: 332px;
+  font-family: "Poppins", sans-serif;
+}
 
-  .applogo{
-    margin-top: 910px;
-    display: block;
-    margin-left: 391px;
-    width: 85px;
-  }
+.applogo {
+  margin-top: 910px;
+  display: block;
+  margin-left: 391px;
+  width: 85px;
+}

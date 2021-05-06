@@ -1,0 +1,68 @@
+.home__body {
+  background-color: #1c1c1c;
+  color: white;
+  /*.home_reminder2 {
+      border-radius: 100%;
+      width: 251px;
+      height: 250px;
+    }*/
+}
+.home__body .home__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.home__body .home__header .logo {
+  justify-self: right;
+}
+.home__body .home__header .menu {
+  margin-top: 13px;
+  justify-self: left;
+}
+.home__body .home_reminders {
+  text-align: center;
+  color: #fff3c7;
+  margin-left: 10px;
+  font-family: "Khula", sans-serif;
+}
+.home__body .home_reminder1 {
+  display: block;
+  margin: auto;
+}
+.home__body .home_learn {
+  font-size: 32px;
+  margin-top: 1px;
+  margin-left: 10px;
+  font-family: "Khula", sans-serif;
+}
+.home__body .all__home_choice {
+  margin-left: 40px;
+  font-family: "Khula", sans-serif;
+}
+.home__body .home_awards {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.home__body .home_awards .home__text {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.home__body .home_scan {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.home__body .home_scan .home__text {
+  margin-left: 20px;
+  margin-top: 34px;
+}
+.home__body .home_zodiac {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.home__body .home_zodiac .home__text {
+  margin-left: 20px;
+  margin-top: 38px;
+}
