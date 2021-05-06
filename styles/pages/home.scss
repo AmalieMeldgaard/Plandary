@@ -1,0 +1,74 @@
+.home__body {
+  background-color: #1c1c1c;
+  color: white;
+
+  .home__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+    .logo {
+      justify-self: right;
+    }
+    .menu {
+      margin-top: 13px;
+      justify-self: left;
+    }
+  }
+
+  .home_reminders {
+    text-align: center;
+    color: #fff3c7;
+    margin-left: 10px;
+  }
+
+  .home_reminder1 {
+    display: block;
+    margin: auto;
+  }
+  /*.home_reminder2 {
+      border-radius: 100%;
+      width: 251px;
+      height: 250px;
+    }*/
+
+  .home_learn {
+    font-size: 32px;
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+
+  .all__home_choice {
+    margin-left: 40px;
+  }
+  .home_awards {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+
+    .home__text {
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  }
+  .home_scan {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+
+    .home__text {
+      margin-left: 20px;
+      margin-top: 34px;
+    }
+  }
+  .home_zodiac {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+
+    .home__text {
+      margin-left: 20px;
+      margin-top: 38px;
+    }
+  }
+}
