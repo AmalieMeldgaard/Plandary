@@ -7,13 +7,14 @@
     grid-template-columns: 1fr 2fr 1fr;
     .logo {
       justify-self: right;
+      padding-left: 40px;
     }
     .menu {
       margin-top: 13px;
       justify-self: left;
     }
     .astrology__title {
-      font-size: 25px;
+      font-size: 23px;
       font-family: "Khula", sans-serif;
     }
   }
@@ -34,5 +35,11 @@
     .astrology_date {
       color: #707070;
     }
+  }
+  .astrology_name {
+    margin: 0;
+  }
+  .astrology_tekst {
+    margin: 0;
   }
 }

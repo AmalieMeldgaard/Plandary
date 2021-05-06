@@ -12,6 +12,7 @@
 }
 .plantInfo__body .plantInfo__header .logo {
   justify-self: right;
+  padding-left: 138px;
 }
 .plantInfo__body .plantInfo__header .menu {
   margin-top: 13px;

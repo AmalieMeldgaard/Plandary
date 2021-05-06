@@ -1,39 +1,3 @@
-.astrology__body {
-  background-color: #1c1c1c;
-  color: white;
-}
-.astrology__body .astrology__header {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-}
-.astrology__body .astrology__header .logo {
-  justify-self: right;
-}
-.astrology__body .astrology__header .menu {
-  margin-top: 13px;
-  justify-self: left;
-}
-.astrology__body .astrology__header .astrology__title {
-  font-size: 25px;
-  font-family: "Khula", sans-serif;
-}
-.astrology__body .astrology_zodiac {
-  margin-left: 22px;
-}
-.astrology__body .astrology_scorpio {
-  margin-left: 95px;
-  margin-top: 10px;
-  font-family: "Poppins", sans-serif;
-}
-.astrology__body .astrology__data {
-  text-align: center;
-  padding: 2px;
-  font-family: "Poppins", sans-serif;
-}
-.astrology__body .astrology__data .astrology_date {
-  color: #707070;
-}
-
 .plantInfo__body {
   background-color: #1c1c1c;
   color: white;
@@ -48,6 +12,7 @@
 }
 .plantInfo__body .plantInfo__header .logo {
   justify-self: right;
+  padding-left: 138px;
 }
 .plantInfo__body .plantInfo__header .menu {
   margin-top: 13px;
@@ -279,4 +244,47 @@
   margin-top: 40px;
   display: block;
   margin: auto;
+}
+
+.astrology__body {
+  background-color: #1c1c1c;
+  color: white;
+}
+.astrology__body .astrology__header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.astrology__body .astrology__header .logo {
+  justify-self: right;
+  padding-left: 40px;
+}
+.astrology__body .astrology__header .menu {
+  margin-top: 13px;
+  justify-self: left;
+}
+.astrology__body .astrology__header .astrology__title {
+  font-size: 23px;
+  font-family: "Khula", sans-serif;
+}
+.astrology__body .astrology_zodiac {
+  margin-left: 22px;
+}
+.astrology__body .astrology_scorpio {
+  margin-left: 95px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.astrology__body .astrology__data {
+  text-align: center;
+  padding: 2px;
+  font-family: "Poppins", sans-serif;
+}
+.astrology__body .astrology__data .astrology_date {
+  color: #707070;
+}
+.astrology__body .astrology_name {
+  margin: 0;
+}
+.astrology__body .astrology_tekst {
+  margin: 0;
 }
