@@ -16,37 +16,54 @@
   }
   .plant__info_light_water_temp {
     margin-top: 60px;
+    margin-bottom: 75px;
   }
-  .sun__info {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 80px;
-    .plant__info_sun {
-      margin-top: 14px;
-      margin-right: 20px;
+  .plant__api {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .api__plantimg {
+      width: 165px;
+      margin-top: 10px;
+      margin-left: 30px;
+      border-radius: 5px;
+    }
+    .sun__info {
+      display: flex;
+      align-items: flex-start;
+      .plant__info_sun {
+        margin-top: 14px;
+        margin-right: 20px;
+      }
+    }
+    .water__info {
+      display: flex;
+      align-items: flex-start;
+      .plant__info_water {
+        margin-top: 14px;
+        margin-right: 20px;
+        margin-left: 5px;
+      }
+    }
+    .temp__info {
+      display: flex;
+      align-items: flex-start;
+      .plant__info_temp {
+        margin-top: 14px;
+        margin-right: 20px;
+        margin-left: 5px;
+      }
     }
   }
-  .water__info {
-    display: flex;
-    align-items: flex-start;
-    .plant__info_water {
-      margin-top: 14px;
-      margin-right: 20px;
-      margin-left: 5px;
-    }
-  }
-  .temp__info {
-    display: flex;
-    align-items: flex-start;
-    .plant__info_temp {
-      margin-top: 14px;
-      margin-right: 20px;
-      margin-left: 5px;
-    }
+
+  .api__btn {
+    display: block;
+    margin: auto;
+    margin-top: 45px;
   }
   .plant_reminder {
-    margin-top: 130px;
+    margin-top: 100px;
   }
+
   .plant__checklist {
     display: flex;
     align-items: flex-start;
@@ -64,5 +81,8 @@
     .plant_imghealth {
       margin-right: 18px;
     }
+  }
+  .footer__background {
+    background-color: #edeae5;
   }
 }
